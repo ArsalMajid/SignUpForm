@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="csspart.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/xolonium" type="text/css"/>
+    <title>Sign up</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="leftbox">
+            <div class = 'logo'> 
+                <img src="./download.png" alt="Logo" class="logo">
+            </div>
+        </div>
+        <div class="rightbox">
+            <div class="inner">
+            <div class ='text'>
+                <p>
+                    Football is a fast-paced sport <br>
+                    that brings people together    <br>
+                    through exciting goals, teamwork <br>
+                    , and dramatic moments. It unites <br>
+                    fans worldwide and creates unforgettable <br>
+                    memories.
+                </p>
+            </div>    
+
+              <form action ="#">
+                <div class="formleft">
+                    <p class="formleft">The start</p>
+                    <div class="input">
+                        <label for="firstname">First name</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="Enter your username" required>
+                    </div>
+
+                    <div class="input">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" name="last-name" id="last-name">
+                    </div>
+
+                    <div class="input">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                    </div>
+                            
+                    <div class="input">
+                            <label for="phone-number">Phone Number</label>
+                            <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="9">
+                    </div>
+                    
+                    <div class="input">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" required>
+                    </div>
+                        
+                    <div class="input">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" name="confirm-password" id="confirm-password" required>
+                    </div>
+                
+                </div>    
+                </div>
+                    
+                    <div class="left button">
+                        <button type="submit">Create Account</button>
+                        <div class="login">Already have an account?<a href="#">Log in</a></div>
+                    </div>
+
+              </form>
+        </div>
+    </div>
 </body>
 </html>
